@@ -314,7 +314,7 @@ h2 {
 
 .hero-section {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)),
-    url("/img/hero-bg.jpeg");
+    url("/goit-markup-hw-05/img/hero-bg.jpeg");
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
