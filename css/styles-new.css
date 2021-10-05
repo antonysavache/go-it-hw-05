@@ -93,18 +93,21 @@ body {
   padding-bottom: 94px;
 }
 
-h2 {
+
+.what-are-wedoo-and-ourteam {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 136%;
+  line-height: 1.36;
   letter-spacing: 0.03em;
   white-space: nowrap;
   color: var(--h-color);
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
+h2 {
+
 }
 
 /*  =============END TECH PART==============  */
@@ -115,6 +118,8 @@ h2 {
   border-bottom: solid var(--border-solid) 1px;
   padding-bottom: 0px;
   padding-top: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-info {
@@ -125,14 +130,12 @@ h2 {
 
 .menu {
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
+
 }
 
 .head-cotacts {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .head-cotacts-li {
@@ -146,9 +149,8 @@ h2 {
 .head-button {
   text-decoration: none;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  line-height: 136%;
+  line-height: 1.36;
   letter-spacing: 0.02em;
   font-size: 14px;
   color: var(--h-color);
@@ -163,9 +165,8 @@ h2 {
   color: var(--hover-color);
   text-decoration: none;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
-  line-height: 136%;
+  line-height: 1.36;
   letter-spacing: 0.02em;
   font-size: 14px;
 }
@@ -246,18 +247,18 @@ h2 {
 .webstudio {
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 136%;
+  line-height: 1.36;
   letter-spacing: 0.03em;
   color: var(--hover-color);
   display: flex;
+  margin-right: 94px;
 }
 
 .colorstudio-top {
   color: var(--black-color);
-  margin-right: 94px;
+
 }
 
 .icons-contacts {
@@ -284,10 +285,9 @@ h2 {
   border-radius: 4px;
   cursor: pointer;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
@@ -304,28 +304,33 @@ h2 {
 }
 
 .hero-content {
-  padding-left: 250px;
-  padding-right: 250px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+
+  max-width: 696px;
 }
 
 .hero-section {
   background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)),
     url("../img/hero-bg.jpg");
-  background-size: cover;
+  background-size: cover   ;
   padding-top: 200px;
   padding-bottom: 200px;
+
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
 }
 
 .texthello {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.36;
   margin-bottom: 30px;
   text-align: center;
   letter-spacing: 0.06em;
@@ -396,15 +401,12 @@ h2 {
 
 .menu-feature {
   display: flex;
-  justify-content: center;
+flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }
 
 .li-menu-feature {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
@@ -412,10 +414,9 @@ h2 {
 
 .feature {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 136%;
+  line-height: 1.36;
   white-space: nowrap;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -434,7 +435,7 @@ h2 {
 
 .div-feature-icons {
   display: flex;
-  width: 270px;
+  width: 100%;
   height: 120px;
   background-color: var(--our-team-bg);
   padding: 25px 102px 25px 102px;
@@ -442,10 +443,9 @@ h2 {
 
 .p-benefits-content {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--content-color);
 }
@@ -475,7 +475,7 @@ h2 {
   width: 100%;
   height: 70px;
   position: absolute;
-  top: 224px;
+  bottom: 0px;
   background: rgba(47, 48, 58, 0.8);
   display: flex;
   justify-content: center;
@@ -484,10 +484,9 @@ h2 {
 .whatarewedo-list-li-div-p {
   text-transform: uppercase;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--white-color);
@@ -522,10 +521,9 @@ h2 {
 
 .name {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 136%;
+  line-height: 1.36;
   /* identical to box height */
   white-space: nowrap;
   text-align: center;
@@ -536,10 +534,9 @@ h2 {
 
 .position {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 136%;
+  line-height: 1.36;
   white-space: nowrap;
   text-align: center;
   letter-spacing: 0.03em;
@@ -563,6 +560,17 @@ h2 {
 
 .buttons-social-links:hover .icons-social-links {
   fill: var(--white-color);
+}
+
+.buttons-social-links:focus .icons-social-links {
+  fill: var(--white-color);
+}
+
+.ourteam-joinus-sociallinks {
+  margin-right: 10px;
+}
+.ourteam-joinus-sociallinks:last-child {
+  margin-right: 0px;
 }
 
 /*  =============END OUR TEAM PART==============  */
@@ -616,6 +624,15 @@ h2 {
   border: 1px solid var(--hover-color);
 }
 
+.client-links:focus .client-links-border .icons-clients {
+  fill: var(--hover-color);
+}
+
+.client-links-border:focus {
+  border: 1px solid var(--hover-color);
+}
+
+
 .buttons-social-links {
   padding: 0;
   border: none;
@@ -635,6 +652,11 @@ h2 {
 .buttons-social-links:hover {
   background-color: var(--hover-color);
 }
+
+.buttons-social-links:focus {
+  background-color: var(--hover-color);
+}
+
 
 /*  =============END OUR CLIENTS PART==============  */
 
@@ -657,10 +679,9 @@ h2 {
 .lowwebstudio {
   text-decoration: none;
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 136%;
+  line-height: 1.36;
   /* identical to box height */
   display: flex;
   letter-spacing: 0.03em;
@@ -673,10 +694,10 @@ h2 {
 
 .addr-prop {
   font-family: Roboto;
+  font-weight: 400;
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--white-color);
@@ -690,15 +711,15 @@ h2 {
 
 .li-footer {
   margin-top: 9px;
+  font-style: normal;
 }
 
 .footer-adress-prop {
   text-decoration: none;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-contacts);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -714,7 +735,7 @@ h2 {
   width: 145px;
   height: 16px;
   font-weight: 700;
-  line-height: 136%;
+  line-height: 1.36;
   margin-bottom: 20px;
   color: var(--white-color);
   margin-top: 12px;
@@ -755,16 +776,19 @@ h2 {
   background-color: var(--hover-color);
 }
 
+.buttons-social-links-footer:focus {
+  background-color: var(--hover-color);
+}
+
 /*=============================PORTFOLIO===================================*/
 
 .button-class {
   background: var(--our-team-bg);
   border-radius: 4px;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%;
+  line-height: 1.62;
   /* identical to box height, or 162% */
   padding: 6px 22px 6px 22px;
   text-align: center;
@@ -790,10 +814,9 @@ h2 {
 
 .h3-pics {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   /* identical to box height, or 200% */
   margin: 0;
   letter-spacing: 0.06em;
@@ -803,10 +826,9 @@ h2 {
 
 .p-pics {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 187%;
+  line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
   color: var(--content-color);
@@ -872,10 +894,9 @@ h2 {
 .portfolio-pic-hover-p {
   padding: 63px 24px 63px 24px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
-  line-height: 156%;
+  line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
